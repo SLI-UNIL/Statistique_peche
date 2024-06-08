@@ -37,4 +37,26 @@ Pour les données statistiques, chaque entrée correspond  également à une riv
 - Nombre de capture
 - Année de capture
 
-le champs nom nous a permis  
+## Interface
+
+l'interface est composé d'un fond de carte, auquel vient s'ajouter une couche de rivière ainsi qu'un rectangle gris qui servira au graphique des captures par poisson et par année. De plus, un bouton recherche permet de chercher une rivière par son nom.
+
+## Utilisation
+
+Ce projet n'est pas sur un serveur, il faut donc l'afficher localement. Il existe de multiples méthodes pour faire cela. Toutefois, nous vous proposons une explication étape par étape ci-dessous pour afficher localement notre projet en utilisant python3.
+1. Télécharger le zip du projet, le décompresser
+2. Ouvrir un Terminal et changer le chemin pour aller au dossier décompressé précédemment
+ex : cd /Users/username/Desktop/Visualisation_des_donnees
+3. Lancer un serveur local en lançant la commande suivante dans le terminal : `python3 -m http.server`
+4. Le terminal devrait afficher la phrase suivante : `Serving HTTP on :: port 8000`
+5. Ouvrir un navigateur (Firefox, Chrome) et entrer l'adresse suivante : `localhost:8000`
+
+## Auteur
+
+Ce projet a été réalisé par Paul Bühlmann pour le cours "Visualisation des données" donné par Isaac Pante à l'UNIL en 2024.
+
+## Remerciments
+
+Mike Bostock pour D3, et tout les exemples.
+Isaac Pante pour les cours et conseils.
+Max Henking pour son aide précieuse et ces conseils
