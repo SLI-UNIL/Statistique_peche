@@ -8,4 +8,18 @@ Les données géographique proviennent de [leaflet](https://leafletjs.com/) qui 
 ### Données statistiques
 Les données statistiques concernant les captures de pêche sont disponibles sur [le site du canton de vaud](https://www.vd.ch/environnement/biodiversite-et-paysage/peche-1#c2028692). Pour rendre ces données utilisables, il a fallu les transformer de PDF à excel et ensuite les joindre pour avoir les statistiques par années et par rivière. En effet, les données venait sous le format d'PDF par année. Une fois cela fait il a fallu changer les noms des rivières dans le tableau excel pour qu'ils correspondent aux noms des rivières dans la couche Shapefile qui a été transformé par la suite en Geojson.
 
-## Description 
+## Description des fonctionnalités du projet
+
+Voici la liste des fonctionnalités de la carte :
+- En arrivant sur la carte les rivière s'affichent ainsi qu'un rectangle gris ou se trouvera le graphique en l'abscence de rivière selectionné, on trouve "data" et "selectionner une rivière" dans le rectangle gris.
+- Il est possible de selectionner une rivière en passant avec la souris sur une rivière. si c'est le cas alors le graphique s'affiche dans le carré gris.
+- il est aussi possible se selectionner une rivière en appuyant avec la souris dessus cela va zommer sur la rivière selectionné en plus d'afficher la graphique correspondant.
+- Finalement il est possible de rechercher une rivière par son nom.
+
+(image interface)
+
+## Outils
+
+<a href="https://d3js.org"><img src="https://d3js.org/logo.svg" align="left" hspace="10" vspace="6"></a>
+
+d3 a permis la visulation du graphique de type "linechart" ainsi que la couche des rivières et [leaflet](https://leafletjs.com/) la visualisation du fond de carte.
