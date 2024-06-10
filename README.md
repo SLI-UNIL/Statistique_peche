@@ -11,7 +11,7 @@ Les données statistiques concernant les captures de pêche sont disponibles sur
 ## Description des fonctionnalités du projet
 
 Voici la liste des fonctionnalités de la carte :
-- En arrivant sur la carte les rivière s'affichent ainsi qu'un rectangle gris ou se trouvera le graphique en l'abscence de rivière selectionné, on trouve "data" et "selectionner une rivière" dans le rectangle gris.
+- En arrivant sur la carte les rivière s'affichent ainsi qu'un rectangle gris ou se trouvera le graphique en l'abscence de rivière selectionné, on trouve "Statistique" et "selectionner une rivière" dans le rectangle gris.
 - Il est possible de selectionner une rivière en passant avec la souris sur une rivière. si c'est le cas alors le graphique s'affiche dans le carré gris.
 - il est aussi possible se selectionner une rivière en appuyant avec la souris dessus cela va zommer sur la rivière selectionné en plus d'afficher la graphique correspondant.
 
@@ -30,15 +30,17 @@ Pour les données géogrpahique, chaque entrée correspond à une rivière et co
 - OBJORIG
 - NAMN
 
-Pour les données statistiques, chaque entrée correspond  également à une rivière et contient les propriétées suivantes :
+Pour les données statistiques, chaque entrée correspond également à une rivière et contient les propriétées suivantes :
 - Nom de la rivière
 - Type de poisson
 - Nombre de capture
 - Année de capture
 
+Les champs ont pu être regrouper grâce au nom des rivirères.
+
 ## Interface
 
-l'interface est composé d'un fond de carte, auquel vient s'ajouter une couche de rivière ainsi qu'un rectangle gris qui servira au graphique des captures par poisson et par année. De plus, un bouton recherche permet de chercher une rivière par son nom.
+l'interface est composé d'un fond de carte, auquel vient s'ajouter une couche de rivière ainsi qu'un rectangle gris qui servira au graphique des captures par poisson et par année. D'un graphique qui permet
 
 ## Utilisation
 
