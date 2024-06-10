@@ -15,7 +15,7 @@ Voici la liste des fonctionnalités de la carte :
 - Il est possible de selectionner une rivière en passant avec la souris sur une rivière. si c'est le cas alors le graphique s'affiche dans le carré gris.
 - il est aussi possible se selectionner une rivière en appuyant avec la souris dessus cela va zommer sur la rivière selectionné en plus d'afficher la graphique correspondant.
 
-(image interface)
+![](img/exemple_utilisation.png)
 
 ## Outils
 
