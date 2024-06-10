@@ -58,10 +58,18 @@ l'interface est composé :
 Ce projet n'est pas sur un serveur, il faut donc l'afficher localement. Il existe de multiples méthodes pour faire cela. Toutefois, nous vous proposons une explication étape par étape ci-dessous pour afficher localement notre projet en utilisant python3.
 1. Télécharger le zip du projet, le décompresser
 2. Ouvrir un Terminal et changer le chemin pour aller au dossier décompressé précédemment
-ex : cd /Users/username/Desktop/Visualisation_des_donnees
+ex : cd /Users/username/Desktop/nom_du_fichier
 3. Lancer un serveur local en lançant la commande suivante dans le terminal : `python3 -m http.server`
 4. Le terminal devrait afficher la phrase suivante : `Serving HTTP on :: port 8000`
 5. Ouvrir un navigateur (Firefox, Chrome) et entrer l'adresse suivante : `localhost:8000`
+
+Une autre manière de faire est de télécharger un éditeur de code comme [Visual studio code](https://code.visualstudio.com/) et de suivre les étapes suivantes :
+1. Télécharger le zip du projet, le décompresser
+2. Ouvrir le dossier dans [Visual studio code](https://code.visualstudio.com/)
+3. Selectionner le fichier ".html"
+4. Appuyer sur "Go Live" en bas à droite de la fenêtre
+5. le navigateur s'ouvre avec le projet 
+   
 
 ## Auteur
 
