@@ -25,7 +25,9 @@ Voici la liste des fonctionnalités de la carte :
 <a href="https://d3js.org"><img src="https://d3js.org/logo.svg" align="left" hspace="10" vspace="6"></a>
 
 d3 a permis la visulation du graphique de type "linechart" ainsi que la couche des rivières et [leaflet](https://leafletjs.com/) la visualisation du fond de carte.
+
 ![](img/leaflet.svg)
+
 Leaflet est une bibliothèque javaScript en open source. qui permet de créer des cartes interactives. On y trouve un certain nombre de commande et de tutoriel pour faciliter l'utilisation.
 
 
