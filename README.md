@@ -4,17 +4,17 @@ Cette carte représente les statistiques de pêche (nombre de capture par type d
 
 ## Base de données
 ### Données géographique
-Les données géographique proviennent de [leaflet](https://leafletjs.com/) qui est un contributeur  d'[OSM](https://www.openstreetmap.org/).Pour la couche des rivières, elle provient également d'OSM et a été exporté grâce à [overpass_turbo](https://overpass-turbo.eu/).
+Les données géographiques proviennent de [leaflet](https://leafletjs.com/) qui est un contributeur d'[OSM](https://www.openstreetmap.org/). Pour la couche des rivières, elle provient également d'OSM et a été exportée grâce à [overpass_turbo](https://overpass-turbo.eu/).
 ### Données statistiques
-Les données statistiques concernant les captures de pêche sont disponibles sur [le site du canton de vaud](https://www.vd.ch/environnement/biodiversite-et-paysage/peche-1#c2028692). Pour rendre ces données utilisables, il a fallu les transformer de PDF à excel et ensuite les joindre pour avoir les statistiques par années et par rivière. En effet, les données venait sous le format d'PDF par année. Une fois cela fait il a fallu changer les noms des rivières dans le tableau excel pour qu'ils correspondent aux noms des rivières dans la couche Shapefile qui a été transformé par la suite en Geojson.
+Les données statistiques concernant les captures de pêche sont disponibles sûr [le site du canton de vaud](https://www.vd.ch/environnement/biodiversite-et-paysage/peche-1#c2028692). Pour rendre ces données utilisables, il a fallu les transformer de PDF à Excel et ensuite les joindre pour avoir les statistiques par années et par rivière. En effet, les données venaient sous le format d'un PDF par année. Une fois cela fait, il a fallu changer les noms des rivières dans le tableau excel pour qu'ils correspondent aux noms des rivières dans la couche Shapefile qui a été transformée par la suite en Geojson.
 
 ## Description des fonctionnalités du projet
 
 Voici la liste des fonctionnalités de la carte :
-- En arrivant sur la carte les rivière s'affichent ainsi qu'un rectangle gris ou se trouvera le graphique en l'abscence de rivière selectionné, on trouve "Statistique" et "selectionner une rivière" dans le rectangle gris.
+- En arrivant sur la carte, les rivières s'affichent ainsi qu'un rectangle gris où se trouvera le graphique en l'absence de rivière sélectionné, on trouve "Statistique" et "sélectionner une rivière" dans le rectangle gris.
 ![](img/interface.png)
-- Il est possible de selectionner une rivière en passant avec la souris sur une rivière. si c'est le cas alors le graphique s'affiche dans le carré gris.
-- il est aussi possible se selectionner une rivière en appuyant avec la souris dessus cela va zommer sur la rivière selectionné en plus d'afficher la graphique correspondant.
+- Il est possible de sélectionner une rivière en passant avec la souris sur une rivière. Si c'est le cas alors le graphique s'affiche dans le carré gris.
+- il est aussi possible se sélectionner une rivière en appuyant avec la souris dessus cela va zoomer sur la rivière sélectionnée en plus d'afficher la graphique correspondant.
 
 ![](img/exemple_utilisation.png)
 
@@ -22,35 +22,34 @@ Voici la liste des fonctionnalités de la carte :
 
 <a href="https://d3js.org"><img src="https://d3js.org/logo.svg" align="left" hspace="10" vspace="6"></a>
 
-d3 a permis la visulation du graphique de type "linechart" ainsi que la couche des rivières et [leaflet](https://leafletjs.com/) la visualisation du fond de carte.
-
+d3 a permis la visualisation du graphique de type "linechart" ainsi que la couche des rivières.
 ![](img/leaflet.svg)
 
-Leaflet est une bibliothèque javaScript en open source. qui permet de créer des cartes interactives. On y trouve un certain nombre de commande et de tutoriel pour faciliter l'utilisation.
+Leaflet est une bibliothèque javaScript en open source qui permet de créer des cartes interactives. On y trouve un certain nombre de commande et de tutoriel pour faciliter l'utilisation. Leaflet a permis la visualisation du fond de carte.
 
 
 ## Données
 
-Pour les données géogrpahique, chaque entrée correspond à une rivière et contient les propriétées suivantes :
+Pour les données géogrpahiques, chaque entrée correspond à une rivière et contient les propriétés suivantes :
 - OBJEKTID
 - OBJORIG
 - NAMN
 
-Pour les données statistiques, chaque entrée correspond également à une rivière et contient les propriétées suivantes :
+Pour les données statistiques, chaque entrée correspond également à une rivière et contient les propriétés suivantes :
 - Nom de la rivière
 - Type de poisson
 - Nombre de capture
 - Année de capture
 
-Les champs ont pu être regrouper grâce au nom des rivirères.
+Les champs ont pu être regroupés grâce au nom des rivières.
 
 ## Interface
 
-l'interface est composé : 
+L'interface est composée : 
 - D'un fond de carte
 - Une couche de rivière du canton de Vaud
 - D'un rectangle gris qui servira à l'affichage du graphique des captures par poisson et par année.
-- D'un graphique de type "linechart" qui permet de visualiser le nombre de capture par type de poisson et par année. L'echelle du nombre de capture se met à jour      automatiquement pour améliorer la visibilité du graphe. 
+- D'un graphique de type "linechart" qui permet de visualiser le nombre de capture par type de poisson et par année. L'échelle du nombre de capture se met à jour automatiquement pour améliorer la visibilité du graphe. 
 
 ## Utilisation
 
@@ -65,9 +64,9 @@ ex : cd /Users/username/Desktop/nom_du_fichier
 Une autre manière de faire est de télécharger un éditeur de code comme [Visual studio code](https://code.visualstudio.com/) et de suivre les étapes suivantes :
 1. Télécharger le zip du projet, le décompresser
 2. Ouvrir le dossier dans [Visual studio code](https://code.visualstudio.com/)
-3. Selectionner le fichier ".html"
+3. Sélectionner le fichier ".html"
 4. Appuyer sur "Go Live" en bas à droite de la fenêtre
-5. le navigateur s'ouvre avec le projet 
+5. Le navigateur s'ouvre avec le projet 
    
 
 ## Auteur
@@ -76,6 +75,6 @@ Ce projet a été réalisé par Paul Bühlmann pour le cours "Visualisation des 
 
 ## Remerciments
 
-Mike Bostock pour D3, et tout les exemples.
+Mike Bostock pour D3, et tous les exemples.
 Isaac Pante pour les cours et conseils.
 Max Henking pour son aide précieuse et ces conseils.
