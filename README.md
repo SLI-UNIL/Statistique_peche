@@ -4,7 +4,7 @@ Cette carte représente les statistiques de pêche (nombre de capture par type d
 
 ## Base de données
 ### Données géographique
-Les données géographique proviennent de [leaflet](https://leafletjs.com/) qui est un contributeur  d'[OSM](https://www.openstreetmap.org/). Leaflet est une bibliothèque javaScript qui permet de créer des cartes interactives et est en open source.
+Les données géographique proviennent de [leaflet](https://leafletjs.com/) qui est un contributeur  d'[OSM](https://www.openstreetmap.org/). Leaflet est une bibliothèque javaScript en open source. qui permet de créer des cartes interactives. On y trouve un certain nombre de commande et de tutoriel pour faciliter l'utilisation.
 ![](img/leaflet.svg)
 
 Pour la couche des rivières, elle provient également d'OSM et a été exporté grâce à [overpass_turbo](https://overpass-turbo.eu/).
@@ -43,7 +43,7 @@ Les champs ont pu être regrouper grâce au nom des rivirères.
 
 ## Interface
 
-l'interface est composé d'un fond de carte, auquel vient s'ajouter une couche de rivière ainsi qu'un rectangle gris qui servira au graphique des captures par poisson et par année. D'un graphique qui permet
+l'interface est composé d'un fond de carte, auquel vient s'ajouter une couche de rivière ainsi qu'un rectangle gris qui servira au graphique des captures par poisson et par année. D'un graphique qui permet de visualiser le nombre de capture par type de poisson et par année. l'echelle du nombre de capture se met à jour automatiquement pour améliorer la visibilité du graphe. 
 
 ## Utilisation
 
