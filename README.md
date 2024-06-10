@@ -50,8 +50,7 @@ l'interface est composé :
 - D'un fond de carte
 - Une couche de rivière du canton de Vaud
 - D'un rectangle gris qui servira à l'affichage du graphique des captures par poisson et par année.
-- D'un graphique de type "linechart" qui permet de visualiser le nombre de capture par type de poisson et par année. L'echelle du nombre de capture se met à jour       
-  automatiquement pour améliorer la visibilité du graphe. 
+- D'un graphique de type "linechart" qui permet de visualiser le nombre de capture par type de poisson et par année. L'echelle du nombre de capture se met à jour      automatiquement pour améliorer la visibilité du graphe. 
 
 ## Utilisation
 
