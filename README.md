@@ -6,7 +6,7 @@ Cette carte représente les statistiques de pêche (nombre de capture par type d
 ### Données géographique
 Les données géographiques proviennent de [leaflet](https://leafletjs.com/) qui est un contributeur d'[OSM](https://www.openstreetmap.org/). Pour la couche des rivières, elle provient également d'OSM et a été exportée grâce à [overpass_turbo](https://overpass-turbo.eu/).
 ### Données statistiques
-Les données statistiques concernant les captures de pêche sont disponibles sûr [le site du canton de vaud](https://www.vd.ch/environnement/biodiversite-et-paysage/peche-1#c2028692). Pour rendre ces données utilisables, il a fallu les transformer de PDF à Excel et ensuite les joindre pour avoir les statistiques par années et par rivière. En effet, les données venaient sous le format d'un PDF par année. Une fois cela fait, il a fallu changer les noms des rivières dans le tableau excel pour qu'ils correspondent aux noms des rivières dans la couche Shapefile qui a été transformée par la suite en Geojson.
+Les données statistiques concernant les captures de pêche sont disponibles sûr [le site du canton de vaud](https://www.vd.ch/environnement/biodiversite-et-paysage/peche-1#c2028692). Pour rendre ces données utilisables, il a fallu les transformer de PDF à Excel et ensuite les joindre pour avoir les statistiques par années et par rivière. En effet, les données venaient sous le format d'un PDF par année. Une fois cela fait, il a fallu changer les noms des rivières dans le tableau excel pour qu'ils correspondent aux noms des rivières dans la couche Shapefile qui a été transformée par la suite en Geojson et finalement en javascript.
 
 ## Description des fonctionnalités du projet
 
@@ -48,7 +48,7 @@ Les champs ont pu être regroupés grâce au nom des rivières.
 L'interface est composée : 
 - D'un fond de carte
 - Une couche de rivière du canton de Vaud
-- D'un rectangle gris qui servira à l'affichage du graphique des captures par poisson et par année.
+- D'un fond gris qui servira à l'affichage du graphique des captures par poisson et par année.
 - D'un graphique de type "linechart" qui permet de visualiser le nombre de capture par type de poisson et par année. L'échelle du nombre de capture se met à jour automatiquement pour améliorer la visibilité du graphe. 
 
 ## Utilisation
