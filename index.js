@@ -89,7 +89,7 @@ info.update = function (props) {
       });
 
       var margin = { top: 10, right: 150, bottom: 40, left: 60 },
-          width = 500 - margin.left - margin.right,
+          width = 600 - margin.left - margin.right,
           height = 250 - margin.top - margin.bottom;
 
       var svg = d3.select(info._div).append("svg")
