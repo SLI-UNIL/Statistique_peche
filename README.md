@@ -11,7 +11,7 @@ Les données statistiques concernant les captures de pêche sont disponibles sû
 ## Description des fonctionnalités du projet
 
 Voici la liste des fonctionnalités de la carte :
-- En arrivant sur la carte, les rivières s'affichent ainsi qu'un rectangle gris où se trouvera le graphique en l'absence de rivière sélectionné, on trouve "Statistique" et "sélectionner une rivière" dans le rectangle gris.
+- En arrivant sur la carte, les rivières s'affichent. En l'absence de rivière sélectionné, on trouve "Statistique" et "sélectionner une rivière" sur le fond gris en dessous de la carte.
 ![](img/interface.png)
 - Il est possible de sélectionner une rivière en passant avec la souris sur une rivière. Si c'est le cas alors le graphique s'affiche dans le carré gris.
 - il est aussi possible se sélectionner une rivière en appuyant avec la souris dessus cela va zoomer sur la rivière sélectionnée en plus d'afficher la graphique correspondant.
