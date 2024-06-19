@@ -22,7 +22,7 @@ function highlightFeature(e) {
     dashArray: '',
     fillOpacity: 0.7
     });
-  layer.bringToFront();
+  //layer.bringToFront();
   info.update(layer.feature.properties);
 };
 // Reset le highlight quand on enlève la souris
